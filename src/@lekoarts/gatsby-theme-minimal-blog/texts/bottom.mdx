@@ -1,0 +1,23 @@
+import { Link } from "gatsby"
+import Title from '@lekoarts/gatsby-theme-minimal-blog/src/components/title'
+
+import projects from '../../../../content/projects'
+import styles from './bottom.module.css'
+
+
+<Title text="Projects"/>
+
+<div>
+  {
+    projects.map(project => (
+      <>
+        {
+          project.to ? 
+          <Link className={styles.link} to={project.to}>{project.name}</Link> : 
+          <a className={styles.link} href={project.href} target="_blank" rel="noopener noreferrer">{project.name}</a>
+        }
+        <p className={styles.description}>{project.description}</p>
+      </>
+    ))
+  }
+</div>
