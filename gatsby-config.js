@@ -10,13 +10,18 @@ module.exports = {
     author: `@bradenwatkins`,
     externalLinks: [
       { name: `Github`, url: `https://github.com/bradenwatkins` },
+      { name: `LinkedIn`, url: `https://linkedin.com/in/bradenwatkins` },
     ],
     navigation: [
       {
         title: `Blog`,
-        slug: `/blog`
-      }
-    ]
+        slug: `/blog`,
+      },
+      {
+        title: `About`,
+        slug: `/about`,
+      },
+    ],
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
