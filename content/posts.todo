@@ -1,0 +1,144 @@
+Blog Posts:
+  School:
+    Introduction to Computer Science:
+      ☐ Variables
+      ☐ Conditionals
+      ☐ Loops
+      ☐ Functions
+      ☐ Arrays
+      ☐ Objects
+
+    Data Structures:
+      ☐ Linked Lists
+      ☐ Stacks/Queues
+      ☐ Sets
+      ☐ Maps
+      ☐ Heaps
+      ☐ Binary Sort Trees
+      ☐ AVL Trees
+      ☐ Hash Tables
+
+    Algorithms:
+      ☐ Recursion
+      ☐ Binary Search
+      ☐ Sorting Algorithms
+        ☐ Merge Sort
+        ☐ Quick Sort
+      ☐ Divide and Conquer
+      ☐ Graph Algorithms:
+        ☐ DFS
+        ☐ BFS
+        ☐ Dijkstra
+      ☐ Divide and Conquer
+      ☐ Greedy Algorithms
+
+    Computational Theory:
+      ☐ Big O
+      ☐ DFA - Regular Expressions & Finite State Machines
+      ☐ PDA - Grammers & Context-free languages
+      ☐ Turing Machines
+      ☐ P vs NP
+
+    Computer Systems:
+      ☐ Binary Numbers
+      ☐ Big Endian vs. Little Endian
+      ☐ Two's Complement
+      ☐ Bitwise Operations
+      ☐ Assembly Code
+      ☐ Processor Architecture
+      ☐ Processes (Forking, Sleeping, Zombie)
+      ☐ Concurrency & Parallel Programming
+      ☐ Multi-threaded programs
+      ☐ I/O Multi-plexing
+
+    Object Oriented Programming:
+      ☐ Inheritance
+      ☐ Polymorphism
+      ☐ Composition
+
+    Web Programming:
+      ☐ HTML/CSS/Javascript
+      ☐ Client/Server Architecture
+      ☐ RESTful Architecture
+      ☐ GraphQL
+
+    Database Modeling Concepts:
+      ☐ SQL
+      ☐ Relational Algebra
+      ☐ NoSQL Databases
+        ☐ Key Value
+        ☐ Document
+        ☐ Graph
+
+    Machine Learning:
+      Deep Learning:
+        ☐ Convolutional Networks
+        ☐ GANS
+        ☐ Deep Reinforcement Learning
+
+    Design Patterns:
+      ☐ Facade Pattern
+      ☐ Factory Pattern
+      ☐ Strategy Pattern
+      ☐ Template Pattern
+      ☐ State Pattern
+      ☐ Dependency Inversion
+    
+    Ethics in Computer Science:
+      ☐ ACM Code of Conduct
+      ☐ Algorithmic Bias
+
+
+    Testing:
+      ☐ Table Driven Tests
+
+    Programming Languages:
+      ☐ C++
+      ☐ Java
+      ☐ Python
+      ☐ Javascript
+    Software Business:
+
+  Career:
+    Internships:
+      ☐ Missionary Training Center
+      ☐ Domo
+      ✔ Qualtrics @done(20-01-07 10:52)
+    Interviewing:
+      ☐ Interviewing Resources
+    Networking:
+      ☐ Ben Dilts
+      ☐ Aaron Skonnard
+
+  Productivity:
+    Tooling:
+      ☐ Todoist
+      ☐ Alfred
+      ☐ iTerm2
+      ☐ VsCode
+      ☐ Dash Documentation
+    Methodologies:
+      ☐ GTD
+      ☐ Deep Work
+    Writing:
+      http://www.hemingwayapp.com/
+    ☐ Dotfiles
+      https://github.com/kentcdodds/dotfiles/blob/master/.macos
+      https://github.com/itsjonq/dotfiles
+      https://github.com/leny/pwendok
+      https://github.com/csswizardry/dotfiles
+      https://github.com/eneax/dotfiles
+      https://github.com/maxpou/dotfiles
+      https://github.com/nervewax/dotfiles
+      https://github.com/davidosomething/dotfiles
+    ☐ Terminal
+      Oh My ZSH
+      https://github.com/denysdovhan/spaceship-prompt
+      https://github.com/sindresorhus/pure
+      https://stedolan.github.io/jq/
+      Windows:
+        https://github.com/Microsoft/Terminal
+        https://fishshell.com/
+        https://github.com/oh-my-fish/oh-my-fish
+        https://spacefish.matchai.me/
+
