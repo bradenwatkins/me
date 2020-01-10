@@ -6,7 +6,7 @@ module.exports = {
     siteUrl: `https://bradenwatkins.dev`,
     siteDescription: `A developer centric blog and portfolio site for Braden Watkins`,
     siteLanguage: `en`,
-    siteImage: `/gatsby-icon.png`,
+    siteImage: `./static/profile-picture.jpg`,
     author: `@_bradenwatkins`,
     externalLinks: [
       { name: `Github`, url: `https://github.com/bradenwatkins` },
@@ -31,7 +31,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-favicon`,
       options: {
-        logo: "./src/favicon.png",
+        logo: "./src/static/favicon.png",
       },
     },
   ],
