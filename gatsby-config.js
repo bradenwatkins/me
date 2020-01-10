@@ -7,7 +7,7 @@ module.exports = {
     siteDescription: `A developer centric blog and portfolio site for Braden Watkins`,
     siteLanguage: `en`,
     siteImage: `/gatsby-icon.png`,
-    author: `@bradenwatkins`,
+    author: `@_bradenwatkins`,
     externalLinks: [
       { name: `Github`, url: `https://github.com/bradenwatkins` },
       { name: `LinkedIn`, url: `https://linkedin.com/in/bradenwatkins` },
@@ -28,5 +28,11 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `@lekoarts/gatsby-theme-minimal-blog`,
+    {
+      resolve: `gatsby-plugin-favicon`,
+      options: {
+        logo: "./src/favicon.png",
+      },
+    },
   ],
 }

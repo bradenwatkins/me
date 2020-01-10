@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "bradenwatkins.dev",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "The personal website for Braden Watkins",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Braden Watkins <braden.watkins5@gmail.com>",
   "dependencies": {
     "@lekoarts/gatsby-theme-minimal-blog": "^1.1.5",
     "@material-ui/core": "^4.8.0",
@@ -13,6 +13,7 @@
     "fs": "0.0.1-security",
     "gatsby": "^2.18.12",
     "gatsby-image": "^2.2.34",
+    "gatsby-plugin-favicon": "^3.1.6",
     "gatsby-plugin-manifest": "^2.2.31",
     "gatsby-plugin-mdx": "^1.0.62",
     "gatsby-plugin-offline": "^3.0.27",
