@@ -28,6 +28,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `@lekoarts/gatsby-theme-minimal-blog`,
+    `gatsby-plugin-postcss`,
     {
       resolve: `gatsby-plugin-favicon`,
       options: {
