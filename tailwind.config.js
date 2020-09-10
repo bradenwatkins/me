@@ -12,10 +12,13 @@ module.exports = {
         "84": "21rem",
         "96": "24rem",
         "108": "27rem",
-        "120": "30rem"
+        "120": "30rem",
       },
     },
   },
   variants: {},
   plugins: [],
+  future: {
+    removeDeprecatedGapUtilities: true,
+  },
 }

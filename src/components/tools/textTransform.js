@@ -2,29 +2,20 @@ import React, { useState } from "react"
 import EasyCopyInput from "./easyCopyInput"
 import Label from "../ui/label"
 import Input from "../ui/input"
-
-const toLower = text => text.trim().toLowerCase()
-
-const toUpper = text => text.trim().toUpperCase()
-
-const toUpperFirst = text =>
-  text
-    .trim()
-    .split()
-    .reduce((result, word) => `${result} ${word.charAt(0)}${word.slice(1)}`, "")
+import { toLowerCase, toUpperCase, toCapitalize } from "./utils"
 
 const transforms = [
   {
     name: "Lowercase",
-    fn: text => text.trim().toLowerCase(),
+    fn: toLowerCase,
   },
   {
-      name: "Uppercase",
-      fn: text => text.trim().toUpperCase()
+    name: "Uppercase",
+    fn: toUpperCase,
   },
   {
-      name: "Capitalize words",
-      fn: text => text.trim().toUpperCase()
+    name: "Capitalize words",
+    fn: toCapitalize,
   },
 ]
 
@@ -40,10 +31,12 @@ const TextTransform = () => {
         onChange={e => setText(e.target.value)}
       />
       <h4>Results</h4>
-      <Label for="lowercase">Lowercase:</Label>
-      <EasyCopyInput className="mb-2" id="lowercase" value={toLower(text)} />
-      <Label for="uppercase">Uppercase:</Label>
-      <EasyCopyInput className="mb-2" id="uppercase" value={toUpper(text)} />
+      {transforms.map(({ name, fn }) => (
+        <div>
+          <Label for={name}>{name}:</Label>
+          <EasyCopyInput className="mb-2" id={name} value={fn(text)} />
+        </div>
+      ))}
     </>
   )
 }
