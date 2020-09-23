@@ -14,13 +14,21 @@ module.exports = {
     ],
     navigation: [
       {
+        title: `About`,
+        slug: `/about`,
+      },
+      {
         title: `Blog`,
         slug: `/blog`,
       },
       {
-        title: `About`,
-        slug: `/about`,
+        title: `Tools`,
+        slug: `/tools`,
       },
+      {
+        title: `Uses`,
+        slug: `/uses`,
+      }
     ],
   },
   plugins: [
@@ -53,7 +61,7 @@ module.exports = {
         feeds: [
           {
             serialize: ({ query: { site, allMdxPost } }) => {
-              return allMdxPost.edges.map((edge) => {
+              return allMdxPost.edges.map(edge => {
                 return Object.assign({}, edge.node, {
                   description: edge.node.excerpt,
                   url: site.siteMetadata.siteUrl + edge.node.slug,
