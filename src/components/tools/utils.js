@@ -17,6 +17,7 @@ const isAlpha = text => RegExp(/[a-zA-Z]+/).test(text)
 export const toCapitalize = text =>
   text
     .trim()
+    .toLowerCase()
     .split("")
     .map((char, i, arr) =>
       i === 0 || !isAlpha(arr[i - 1]) ? char.toUpperCase() : char
