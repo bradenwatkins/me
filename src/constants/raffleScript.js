@@ -37,7 +37,8 @@ function parseNames() {
   const nameText = textArea.value
   textArea.parentElement.removeChild(textArea)
   const rawNames = nameText
-    .split("\\n")
+    .split("
+   \\n")
     .map(name => name.trim())
     .filter(name => name.length !== 0)
   rawNames.forEach(name =>
@@ -159,7 +160,7 @@ function setButtonText(text) {
   button.innerHTML = text
 } 
 
-const nameString = 'Ernest Hemingway \\nWilliam Shakespeare \\nJ.R.R Tolkien \\nJohn Steinbeck \\nJ.K. Rowling \\nStephen King \\nEdgar Allen Poe \\nEmily Dickinson \\nGeorge Orwell \\nF. Scott Fitzgerald \\nMark Twain \\nJane Austen \\nHarper Lee \\nGeorge Eliot \\nEmily Bronte \\nWalt Whitman \\nWilliam Butler Yeats \\nWilliam Faulkner \\nCharles Dickens \\nRobert Frost \\nAdam Zapel \\nBiff Wellington \\nCharity Case \\nDon Key \\nEarl E. Bird \\nHazel Nutt \\nJack Pott \\nJo King \\nMatt Tress \\nMike Stand \\nMona Lott \\nOrson Carte \\nRay Gunn \\nSonny Day \\nWarren Peace \\nEmma Stone \\nOlivia Shepherd \\nAva Barlow \\nSophia Vaughn \\nIsabella Wilson \\nMia Love \\nCharlotte S Web \\nNoah S Ark \\nLiam Schlicter \\nWilliam Watkins \\nMason Nichols \\nJames Potter \\nBenjamin Tower \\nJacob Johnson \\nEthan Stewart'
+const nameString = '\\nErnest Hemingway\\nWilliam Shakespeare\\nJ.R.R Tolkien\\nJohn Steinbeck\\nJ.K. Rowling\\nStephen King\\nEdgar Allen Poe\\nEmily Dickinson\\nGeorge Orwell\\nF. Scott Fitzgerald\\nMark Twain\\nJane Austen\\nHarper Lee\\nGeorge Eliot\\nEmily Bronte\\nWalt Whitman\\nWilliam Butler Yeats\\nWilliam Faulkner\\nCharles Dickens\\nRobert Frost\\nAdam Zapel\\nBiff Wellington\\nCharity Case\\nDon Key\\nEarl E. Bird\\nHazel Nutt\\nJack Pott\\nJo King\\nMatt Tress\\nMike Stand\\nMona Lott\\nOrson Carte\\nRay Gunn\\nSonny Day\\nWarren Peace\\nEmma Stone\\nSophia Vaughn\\nIsabella Wilson\\nCharlotte S Web\\nNoah S Ark\\nLiam Schlicter\\nWilliam Watkins\\nMason Nichols\\nJames Potter\\nHenry T. Cote\\nStephen J. Johnson\\nLisa R. Redfern\\nBetty D. Green\\nBenjamin Tower'
 
 init()
 `
