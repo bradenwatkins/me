@@ -37,8 +37,7 @@ function parseNames() {
   const nameText = textArea.value
   textArea.parentElement.removeChild(textArea)
   const rawNames = nameText
-    .split("
-   \\n")
+    .split("\\n")
     .map(name => name.trim())
     .filter(name => name.length !== 0)
   rawNames.forEach(name =>
