@@ -22,11 +22,10 @@ const resume = {
     ],
   },
   summary: [
-    "Seeking full-time position as a software engineer starting Summer 2020",
-    "Graduating April 2020 with a Bachelors in Computer Science",
-    "Over 2 years of software development experience",
-    "Software Engineering Intern at SAP + Qualtrics",
-    "Skills: Golang, React, Angular, AngularJs, Java, TypeScript, Javascript, Python, Oracle SQL/MySQL, and C++",
+    "Software Engineer at Microsoft",
+    "Over 3 years of software development experience",
+    "Graduated in April 2020 with a Bachelors in Computer Science from BYU",
+    "Skills: C#, .NET Core, Azure, CosmosDB, Kusto, Golang, React, Angular, AngularJs, Java, TypeScript, Javascript, Python, Oracle SQL/MySQL, and C++",
   ],
   sections: [
     {
@@ -34,10 +33,10 @@ const resume = {
       subsections: [
         {
           title: "Brigham Young University",
-          subtitle: "Senior - Expected Graduation Date: April 2020",
+          subtitle: "Graduated: April 2020",
           details: [
             "Bachelor of Computer Science, Minor of Business Management",
-            "Current GPA: 3.95",
+            "GPA: 3.95",
             "Completed Coursework: Data Structures, Discrete Systems, Computational Theory, Advanced Programming Concepts, Software Design and Testing, Algorithm Design, User Experience Design, Computer Systems",
             "Activities: President of the Association of Computing Machinery (ACM), Member of the Developer Club, Member of the Tech Club",
           ],
@@ -48,11 +47,20 @@ const resume = {
       title: "Experience",
       subsections: [
         {
+          title: "Microsoft",
+          subtitle: "Software Engineering Intern - May 2020 to Present",
+          details: [
+            "Contributed to the largest RESTful resource provider for the Azure cloud by building new features, reducing latency, and improving reliability",
+            "Technologies utilized: C#, .NET Core, Cosmos DB, Azure",
+          ],
+        },
+        {
           title: "SAP + Qualtrics",
-          subtitle: "Software Engineering Intern - May 2019 to Present",
+          subtitle: "Software Engineering Intern - May 2019 to May 2020",
           details: [
             "Built systems to streamline translation processes, reducing time and cost by 90%",
             "Coordinating efforts with contributors in Utah, Seattle and Dublin, Ireland",
+            "Technologies utilized: Golang, React, Javascript, Docker and Jenkins"
           ],
         },
         {
@@ -61,6 +69,7 @@ const resume = {
           details: [
             "Self-managed a project to improve search navigation in the Domo product and migrate an AngularJs frontend to React",
             "Redesigned AngularJs front-end architecture, removing thousands of lines of unused and unnecessary code to improve maintainability and stability",
+            "Technologies utilized: React, AngularJS, Javascript, Java"
           ],
         },
         {
@@ -95,22 +104,6 @@ const resume = {
             </span>,
             "Raised over $10,000 to sponsor club events over a year",
             "Coordinated 10+ large events (75-150 people) with companies including Apple, Microsoft and Google",
-          ],
-        },
-        {
-          title: "Volunteer Missionary",
-          subtitle:
-            "The Church of Jesus Christ of Latter-Day Saints - 2014 to 2016",
-          details: [
-            "Served as a Spanish-speaking missionary for 2 years, developing interpersonal and leadership skills",
-            "Solved unique, mission-wide logistical problems",
-          ],
-        },
-        {
-          title: "100 Years Project",
-          subtitle: "Davis High School - 2012 to 2013",
-          details: [
-            "Gathered and compiled data about 2500 students and alumni to build an exhibit commemorating Davis High School's 100th year",
           ],
         },
       ],
