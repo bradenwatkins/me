@@ -16,7 +16,7 @@
     "gatsby-plugin-favicon": "^3.1.6",
     "gatsby-plugin-feed": "^2.5.12",
     "gatsby-plugin-manifest": "^2.4.31",
-    "gatsby-plugin-mdx": "^1.2.40",
+    "gatsby-plugin-mdx": "^2.14.1",
     "gatsby-plugin-offline": "^3.2.28",
     "gatsby-plugin-page-creator": "^2.3.28",
     "gatsby-plugin-postcss": "^2.3.12",
