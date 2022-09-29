@@ -1,22 +1,28 @@
-import React from "react"
+import React, { useState } from "react"
+import { FiRefreshCw } from "react-icons/fi"
+import Button from "../ui/button"
 
-const Tools = () => (
-  <>
-    <h1 className="px-6 pt-6">Getting to know you</h1>
-    <div className="p-6 m-auto">
-      <h2>Random questions</h2>
-      <ul>
-        {shuffle(randomQuestions)
-          .slice(0, 10)
-          .map(question => (
-            <li>{question}</li>
-          ))}
-      </ul>
-    </div>
-  </>
-)
+const GetToKnowYou = () => {
+  const [questions, setQuestions] = useState(shuffle(allQuestions))
 
-export default Tools
+  console.log(questions)
+
+  return (
+    <>
+    <div className={`w-full flex flex-row justify-between items-start`}>
+      <h4>Questions</h4>
+        <Button onClick={() => setQuestions(shuffle(allQuestions))}>
+          <FiRefreshCw />
+        </Button>
+      </div>
+      {questions?.map(question => (
+        <p>{question}</p>
+      ))}
+    </>
+  )
+}
+
+export default GetToKnowYou
 
 const shuffle = array => {
   let currentIndex = array.length,
@@ -29,10 +35,10 @@ const shuffle = array => {
       array[currentIndex],
     ]
   }
-  return array;
+  return array.slice(0, 5)
 }
 
-const randomQuestions = [
+const allQuestions = [
   "What are your hobbies?",
   "Do you collect anything?",
   "What are you passionate about?",

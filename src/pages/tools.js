@@ -2,10 +2,12 @@
 
 import React from "react"
 import Card from "../components/card"
+import GetToKnowYou from "../components/tools/getToKnowYou"
 import WordCount from "../components/tools/wordCount"
 import TextTransform from "../components/tools/textTransform"
 
 const toolSet = [
+  { name: "Get to know you", Component: GetToKnowYou },
   { name: "Text Transform", Component: TextTransform },
   { name: "Word Count", Component: WordCount },
 ]

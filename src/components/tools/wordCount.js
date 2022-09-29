@@ -3,6 +3,7 @@ import EasyCopyInput from "./easyCopyInput"
 import Label from "../ui/label"
 import Textarea from "../ui/textarea"
 
+
 const countCharacters = text => text.length
 
 const countWords = text =>
